@@ -1,0 +1,19 @@
+package JAVA;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+
+public class Polyline extends ArrayList<Point> {
+	private final ArrayList<Point> lp = new ArrayList<Point>();
+public Polyline(ArrayList<Point> list) {
+		// TODO Auto-generated constructor stub
+	}
+private void add(Point p) {
+		Objects.requireNonNull(p) ;
+		 lp.add(p) ; //delegation
+		 }
+
+
+ 
+}

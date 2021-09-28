@@ -10,11 +10,6 @@ public class Main {
 	Point p1 = new Point(15,55);
 	Point p2 = new Point(8,10);
 	Point p3 = new Point(9,15);
-	Polyline pl = new Polyline(p2);
-	
-	
-	
-
 	
 	ArrayList<Point> list = new ArrayList<>();
 	list.add(p1);
@@ -25,7 +20,7 @@ public class Main {
 	System.out.println(list.indexOf(p2));
 	System.out.println(list.indexOf(p3));
 	
-	System.out.println(pl.toString());
+	System.out.println(list.toString());
 
 //	System.out.println(p3.getX()+" "+p3.getY());
 //	System.out.println(Point.getCount()); 
@@ -34,9 +29,9 @@ public class Main {
 //	System.out.println(Point.isSameAs(p1,p2));
 
 
+
  }
 	
 	}
-
 
 
