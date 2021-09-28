@@ -43,13 +43,6 @@ public class Point {
 		else 
 			return false; 
 	}
-
-
-
-	public String toString() {
-		return "Point [x=" + x + ", y=" + y + "]";
-	}
-	
 	
 	
 	

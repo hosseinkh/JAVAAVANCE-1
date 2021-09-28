@@ -9,17 +9,14 @@ public class Main {
 		
 	Point p1 = new Point(15,55);
 	Point p2 = new Point(8,10);
-	Point p3 = new Point(9,15);
+	
 	
 	ArrayList<Point> list = new ArrayList<>();
 	list.add(p1);
 	list.add(p2);
-	list.add(p3);
 
 	System.out.println(list.indexOf(p1));
 	System.out.println(list.indexOf(p2));
-	System.out.println(list.indexOf(p3));
-	
 	System.out.println(list.toString());
 
 //	System.out.println(p3.getX()+" "+p3.getY());
