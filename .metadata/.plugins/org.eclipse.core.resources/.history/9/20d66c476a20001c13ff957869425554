@@ -1,0 +1,16 @@
+package JAVA;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		
+	Point p = new Point(7,5);
+	Point p2 = new Point(p); 
+	
+	System.out.println(p2.getX()+" "+p2.getY());
+	System.out.println(Point.getCount()); 
+
+	}
+
+}

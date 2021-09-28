@@ -1,0 +1,23 @@
+package JAVA;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		
+	Point p = new Point(7,5);
+	Point p2 = new Point(p);
+	Point pa = new Point(7,5);
+	Point pzz = new Point(p); 
+	Point pz = new Point(7,5);
+	Point p2zz = new Point(p); 
+	Point pzzz = new Point(7,5);
+	Point p2zzzzz = new Point(p); 
+	
+	
+	System.out.println(p2.getX()+" "+p2.getY());
+	System.out.println(Point.getCount()); 
+
+	}
+
+}
